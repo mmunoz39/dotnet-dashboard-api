@@ -2,20 +2,20 @@
 
 This is a simple ASP.NET Core Web API project that provides dashboard metrics. It is intended to be consumed by a frontend (Angular dashboard).
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - ASP.NET Core 8.0
 - Entity Framework Core
 - SQL Server (LocalDB or full version)
 - Swagger (Swashbuckle)
 
-## 📦 Requirements
+## Requirements
 
 - [.NET SDK 8.0+](https://dotnet.microsoft.com/en-us/download)
 - SQL Server
 - Visual Studio / Visual Studio Code
 
-## ⚙️ Setup
+## Setup
 
 1. **Clone the repository**
    ```bash
@@ -39,25 +39,19 @@ This is a simple ASP.NET Core Web API project that provides dashboard metrics. I
 4. **View Swagger UI**
    Open your browser at: [http://localhost:5155/swagger](http://localhost:5155/swagger)
 
-## 📡 Available Endpoints
+## Available Endpoints
 
 | Method | Endpoint                | Description                  |
 |--------|-------------------------|------------------------------|
 | GET    | `/api/dashboard`        | Returns the latest metrics   |
 | GET    | `/api/dashboard/all`    | Returns all metrics records  |
 
-## 📝 Notes
+## Notes
 
 - CORS is enabled to allow requests from Angular (http://localhost:4200)
 - Swagger UI is available only in Development mode
 - Database name: `Sales`, table: `DashboardMetrics`
 
-## 📌 Todo (Optional)
-
-- Add POST, PUT, DELETE endpoints
-- Add authentication
-- Add Docker support
-
----
-
+## License
+This project is provided for educational and demonstration purposes.
 Feel free to fork, clone or contribute!
